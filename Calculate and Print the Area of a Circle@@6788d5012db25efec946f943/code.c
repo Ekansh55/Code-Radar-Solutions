@@ -2,8 +2,9 @@
 
 
 
-int main() {
-    float x,y;
+int main(){
+    float x;
+    float y;
     scanf("%f",&x);
     y=3.14* x * x;
     print("Area: %.2f",y);
