@@ -2,15 +2,15 @@
 
 
 int main() {
-    char n;
+    char n[50];
     int a;
-    char h;
-    scanf("%c",&n);
+    char h[50];
+    scanf("%s",&n);
     scanf("%d",&a);
-    scanf("%d",&h);
-    printf("Name: %c\n",n);
+    scanf("%s",&h);
+    printf("Name: %s\n",n);
     printf("Age: %d\n",a);
-    printf("Hobby: %d\n",h);
+    printf("Hobby: %s\n",h);
 
     return 0;
 }
