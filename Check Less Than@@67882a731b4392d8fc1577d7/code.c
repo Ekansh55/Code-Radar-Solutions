@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-c
+
 
 int main() {
     int x,y;
