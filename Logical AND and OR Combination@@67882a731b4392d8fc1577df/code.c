@@ -11,7 +11,7 @@ int main() {
         printf("True\n");
     }
     else if(x,y ==0) {
-        printf("True\n";)
+        printf("True\n");
     }
     else {
         printf("False\n");
