@@ -7,7 +7,7 @@ int main() {
     int y;
     scanf("%d",&x);
     scanf("%d",&y);
-    if(x>o && y>0){
+    if(x>0 && y>0){
         printf("True\n");
     }
     else{
