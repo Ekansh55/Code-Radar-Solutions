@@ -13,7 +13,7 @@ int main() {
     else if(x<=0 && y>=0) {
         printf("True");
 
-    else if(x==0 and y==0){
+    else if(x==0 && y==0){
         printf("False");
     }
     }
