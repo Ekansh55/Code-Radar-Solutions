@@ -8,7 +8,7 @@ int main() {
     x=x+y;
     x=x-y;
     x=x-y;
-    printf("x=%d y=%d\n",x,y);
+    printf("x=%d, y=%d\n",x,y);
 
 
 
