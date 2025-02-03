@@ -15,7 +15,7 @@ int main() {
     else if(x==y!=z || x!=y==z || x!=z==y){
         printf("Isosceles\n");
     }
-    else{
+    else if(x!=y!=z){
         printf("Scalene\n");
     }
     return 0;
