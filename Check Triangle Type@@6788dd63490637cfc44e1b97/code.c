@@ -13,7 +13,7 @@ int main() {
         printf("Equilateral\n");
     }
     
-    else if(x!=y!=z){
+    else if(x!=y &&y!=z){
         printf("Scalene\n");
     }
     else{
