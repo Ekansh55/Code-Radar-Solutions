@@ -12,11 +12,12 @@ int main() {
     if(x==y==z){
         printf("Equilateral\n");
     }
-    else {
-        printf("Isosceles\n");
-    }
+    
     else if(x!=y!=z){
         printf("Scalene\n");
+    }
+    else{
+        printf("Isosceles\n");
     }
     return 0;
 }
