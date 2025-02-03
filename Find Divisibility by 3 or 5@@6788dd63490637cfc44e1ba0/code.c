@@ -11,7 +11,7 @@ int main() {
     else if(x%3==0){
         printf("Divisible by 3\n");
     }
-    else if("x%5==0"){
+    else if(x%5==0){
         printf("Divisible by 5\n");
     }
     else{
