@@ -11,7 +11,7 @@ int main() {
         printf("Digit\n");
     }
     else if(!isalnum(x)) {
-        printf("Special Character\n")
+        printf("Special Character\n");
     }
     
     else {
