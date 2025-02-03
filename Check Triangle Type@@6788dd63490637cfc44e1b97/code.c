@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%d",&z);
-    if(x==y==z){
+    if(x==y && y==z){
         printf("Equilateral\n");
     }
     
