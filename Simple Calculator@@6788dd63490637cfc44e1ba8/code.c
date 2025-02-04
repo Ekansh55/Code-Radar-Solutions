@@ -19,5 +19,8 @@ int main() {
     else if(z=='*'){
         printf("%d",(x*y));
     }
+    else{
+        printf("error");
+    }
     return 0;
 }
