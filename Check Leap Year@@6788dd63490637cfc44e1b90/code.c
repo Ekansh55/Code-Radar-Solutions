@@ -8,7 +8,7 @@ int main() {
         printf("Leap Year");
     }
     else if(x%400==0 || x%100!=0){
-        printf("Not a Leap Year");
+        printf("Leap Year");
     }
     else{
         printf("Leap Year");
