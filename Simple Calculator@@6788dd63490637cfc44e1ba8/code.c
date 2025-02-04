@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&x);
     scanf("%c",&y);
     if(y=='+'){
-        print("%d",(x+y));
+        printf("%d",(x+y));
     }
     return 0;
 }
