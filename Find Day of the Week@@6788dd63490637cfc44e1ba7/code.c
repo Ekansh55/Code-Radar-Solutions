@@ -5,7 +5,7 @@
 int main() {
     int day;
     scanf("%d",&day);
-    if(x==0 || x>7){
+    if(day==0 || day>7){
         printf("Invalid");
     }
     switch(day) {
