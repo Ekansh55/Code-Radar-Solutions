@@ -10,7 +10,7 @@ int main() {
         sum = sum+i;
 
     }
-    printf("%d",i);
+    printf("%d",sum);
 
     return 0;
 }
