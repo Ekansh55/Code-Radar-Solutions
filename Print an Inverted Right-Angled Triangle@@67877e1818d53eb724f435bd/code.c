@@ -1,0 +1,8 @@
+int main(){
+    int x;
+    scanf("%d",&x);
+    if(x==1){
+        printf("*");
+    }
+    return 0;
+}
