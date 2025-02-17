@@ -7,8 +7,8 @@ int main() {
     if(x <= 1) {
         printf("Not Prime\n");
     } else {
-        
-        for(int i = 2; i * i <= x; i++) {
+        int:
+        for( i = 2; i * i <= x; i++) {
             if(x % i == 0) {
                 break;
             }
