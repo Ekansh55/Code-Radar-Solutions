@@ -19,7 +19,7 @@ int main() {
             printf("Not Prime\n");
         }
 
-    }
+    
     
 
     return 0;
