@@ -1,13 +1,14 @@
-#include<stdio.h>
+#includestdio.h>
 int main(){
     int x;
     scanf("%d",&x);
-    if(x==1){
-        printf("*");
+    for(int i=1; i<=x; i++){
+        for(int j=1; j<=x+1-i;j++){
+            printf("*");
+    
+        }
+        printf("\n");
     }
-    else if(x==2){
-        printf("* *\n");
-        printf("*");
-    }
+
     return 0;
 }
