@@ -10,5 +10,5 @@ int main() {
     return 0;
 }
 void sum(int x, int y){
-    printf("%d",&add);
+    printf("%d",add);
 }
