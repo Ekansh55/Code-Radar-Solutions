@@ -10,5 +10,6 @@ int main() {
     return 0;
 }
 void sum(int x, int y){
+    int add = x + y;
     printf("%d",add);
 }
