@@ -20,7 +20,7 @@ int main() {
     int arr[n];
     
     // Read the array elements
-    printf("Enter the elements of the array: ");
+    
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
