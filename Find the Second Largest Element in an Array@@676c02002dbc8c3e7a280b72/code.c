@@ -21,7 +21,7 @@ int main(){
 if(smax != -1) {
         printf("%d\n", smax);
     } else {
-        printf("No second maximum\n"); // Case where all elements are equal
+        printf("-1"); // Case where all elements are equal
     }
 
     return 0;
@@ -30,5 +30,3 @@ if(smax != -1) {
 
     
 
-    return 0;
-}
