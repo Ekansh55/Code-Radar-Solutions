@@ -7,12 +7,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<=n-1;i++){
-        if(n%2==0){
+        if(i%2==0){
             m++;
         }
     }
     for(int i=0;i<=n-1;i++){
-        if(n%2==0){
+        if(i%2!=0){
             l++;
         }
     }
