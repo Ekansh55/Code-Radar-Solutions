@@ -16,14 +16,14 @@ int main(){
     for(int i=0;i<n;i++){
         if(smax<arr[i] && arr[i]!=max){
             smax=arr[i];
+
+        }
+        else if(smax<arr[i]){
+            smax = arr[i];
         }
     }
-if(smax != -1) {
-        printf("%d\n", smax);
-    } else {
-        printf("-1"); // Case where all elements are equal
-    }
 
+    printf("%d",smax);
     return 0;
 }
 
