@@ -12,13 +12,16 @@ int main(){
             max=arr[i];
         }
     }
-    int smax = arr[0];
+    int smax = -1000;
+    int x=0;
     for(int i=0;i<n;i++){
         if(smax<arr[i] && arr[i]!=max){
             smax=arr[i];
+            x=1;
         }
     }
-    printf("%d",smax);
+    if(x==1) printf("%d",smax);
+    else printf("%d",-1);
 
     
 
