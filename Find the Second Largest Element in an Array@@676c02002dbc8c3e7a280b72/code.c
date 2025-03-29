@@ -17,13 +17,16 @@ int main(){
         if(smax<arr[i] && arr[i]!=max){
             smax=arr[i];
         }
-        else{
-            printf("-1");
-        }
-        
-
     }
-    printf("%d",smax);
+if(smax != -1) {
+        printf("%d\n", smax);
+    } else {
+        printf("No second maximum\n"); // Case where all elements are equal
+    }
+
+    return 0;
+}
+
 
     
 
