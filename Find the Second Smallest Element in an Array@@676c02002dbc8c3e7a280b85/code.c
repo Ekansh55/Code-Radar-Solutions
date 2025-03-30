@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i;
+    int n;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -14,7 +14,7 @@ int main(){
 
     }
     int x=0;
-    int smin = arr[i];
+    int smin = 10000;
     for(int i=0;i<n;i++){
         if(arr[i]<smin&&arr[i]!=min){
             smin=arr[i];
@@ -27,7 +27,5 @@ int main(){
     else{
         printf("-1");
     }
-
-    
     return 0;
 }
