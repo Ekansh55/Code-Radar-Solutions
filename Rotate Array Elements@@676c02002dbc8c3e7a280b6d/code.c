@@ -17,6 +17,7 @@ int main(){
     }
     int k;
     scanf("%d",&k);
+    if(k>=n) k=k%n;
     reversepart(0,n-k-1,arr);
     reversepart(n-k,n-1,arr);
     reversepart(0,n-1,arr);
