@@ -17,6 +17,7 @@ int main(){
             a=a/10;
         }
         ar2[i]=sum;
+        sum=0;
     }
     for(int i=0;i<n;i++){
         printf("%d ",ar2[i]);
