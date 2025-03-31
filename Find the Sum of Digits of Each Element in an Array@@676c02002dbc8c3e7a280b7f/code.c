@@ -4,7 +4,7 @@ int main(){
     int b=0;
     int sum=0;
     scanf("%d",&n);
-    int arr[n];
+    int arr[n],int ar2[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -15,10 +15,10 @@ int main(){
             sum=sum+b;
             a=a/10;
         }
-        arr[i]=sum;
+        ar2[i]=sum;
     }
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 
 
