@@ -7,12 +7,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    scanf("%d",&k);
+    scanf("%d",&k)
     for(int i=0;i<n;i++){
-        brr[i] = arr[k-i-1];
+        brr[i] = arr[n-i-1];
     }
     for(int i=0;i<n;i++){
-        printf("%d",brr[i]);
+        printf("%d ",brr[i]);
     }
 
     
