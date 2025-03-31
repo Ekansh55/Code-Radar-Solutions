@@ -1,11 +1,12 @@
 #include<stdio.h>
-void reverse(int i, int j, int arr);
-while(i<=j){
-    int temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-    i++;
-    j--;
+void reverse(int i, int j, int arr){
+    while(i<=j){
+         int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        i++;
+         j--;
+    }
 }
 int main(){
     int n,k;
